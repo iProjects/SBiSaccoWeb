@@ -1,0 +1,15 @@
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Debug\SBiSaccoWeb.Data.Agents.csprojResolveAssemblyReference.cache
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Debug\SBiSaccoWeb.Data.Agents.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Debug\SBiSaccoWeb.Data.Agents.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Debug\SBiSaccoWeb.Data.Agents.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Debug\SBiSaccoWeb.Data.Agents.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Debug\SBiSaccoWeb.Data.Agents.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Debug\SBiSaccoWeb.Data.Agents.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Debug\SBiSaccoWeb.Data.Agents.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Debug\SBiSaccoWeb.Data.Agents.pdb

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9E8DE28-4C15-4B06-9824-0A37394C0F9B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SBiSaccoWeb.Business</RootNamespace>
+    <AssemblyName>SBiSaccoWeb.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministratorComponent.cs" />
+    <Compile Include="CorporatesComponent.cs" />
+    <Compile Include="CurrenciesComponent.cs" />
+    <Compile Include="DataEntryComponent.cs" />
+    <Compile Include="DepartmentsComponent.cs" />
+    <Compile Include="FundingLinesComponent.cs" />
+    <Compile Include="LoanProductsComponent.cs" />
+    <Compile Include="NonSolidarityGroupsComponent.cs" />
+    <Compile Include="PersonsComponent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SavingsProductsComponent.cs" />
+    <Compile Include="SolidarityGroupsComponent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\SBiSaccoWeb.Data.Agents\SBiSaccoWeb.Data.Agents.csproj">
+      <Project>{9966E5DE-9758-49DD-9366-4F87675F1167}</Project>
+      <Name>SBiSaccoWeb.Data.Agents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\SBiSaccoWeb.Data\SBiSaccoWeb.Data.csproj">
+      <Project>{283C1F29-2C60-4B30-956B-2FBB40CFB527}</Project>
+      <Name>SBiSaccoWeb.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\SBiSaccoWeb.Entities\SBiSaccoWeb.Entities.csproj">
+      <Project>{15243E12-8661-4CFC-B8EE-44D2EABBD170}</Project>
+      <Name>SBiSaccoWeb.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\SBiSaccoWeb.Framework\SBiSaccoWeb.Framework.csproj">
+      <Project>{134326FF-A7B0-4CA6-9A13-C8E04E1ABD36}</Project>
+      <Name>SBiSaccoWeb.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

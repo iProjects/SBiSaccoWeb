@@ -1,0 +1,184 @@
+﻿@model SBiSaccoWeb.Entities.Corporate
+
+@{
+    ViewBag.Title = "Create Corporate";
+}
+
+<h2 class="page-title">Create Corporate</h2>
+
+@using (Html.BeginForm("UploadEmployerLogo", "DataEntry", FormMethod.Post, new { enctype = "multipart/form-data", id = "form-upload-logo" })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Corporate</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.name)
+            @Html.ValidationMessageFor(model => model.name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.deleted)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.deleted)
+            @Html.ValidationMessageFor(model => model.deleted)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.sigle)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.sigle)
+            @Html.ValidationMessageFor(model => model.sigle)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.small_name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.small_name)
+            @Html.ValidationMessageFor(model => model.small_name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.volunteer_count)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.volunteer_count)
+            @Html.ValidationMessageFor(model => model.volunteer_count)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.agrement_date)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.agrement_date)
+            @Html.ValidationMessageFor(model => model.agrement_date)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.agrement_solidarity)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.agrement_solidarity)
+            @Html.ValidationMessageFor(model => model.agrement_solidarity)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.employee_count)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.employee_count)
+            @Html.ValidationMessageFor(model => model.employee_count)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.siret)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.siret)
+            @Html.ValidationMessageFor(model => model.siret)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.activity_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.activity_id)
+            @Html.ValidationMessageFor(model => model.activity_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.date_create)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.date_create)
+            @Html.ValidationMessageFor(model => model.date_create)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.fiscal_status)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.fiscal_status)
+            @Html.ValidationMessageFor(model => model.fiscal_status)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.registre)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.registre)
+            @Html.ValidationMessageFor(model => model.registre)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.legalForm)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.legalForm)
+            @Html.ValidationMessageFor(model => model.legalForm)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.insertionType)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.insertionType)
+            @Html.ValidationMessageFor(model => model.insertionType)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.loan_officer_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.loan_officer_id)
+            @Html.ValidationMessageFor(model => model.loan_officer_id)
+        </div>
+
+        <p>
+            <input type="submit" value="Create"  id="btnSubmit" />
+        </p>
+    </fieldset>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+
+

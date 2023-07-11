@@ -1,0 +1,10 @@
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Release\SBiSaccoWeb.Entities.csprojResolveAssemblyReference.cache
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Release\SBiSaccoWeb.Entities.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Release\SBiSaccoWeb.Entities.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Release\SBiSaccoWeb.Entities.csprojResolveAssemblyReference.cache
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Release\SBiSaccoWeb.Entities.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Release\SBiSaccoWeb.Entities.pdb

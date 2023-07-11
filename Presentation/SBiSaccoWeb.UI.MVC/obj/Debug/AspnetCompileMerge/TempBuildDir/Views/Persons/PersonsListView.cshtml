@@ -1,0 +1,96 @@
+﻿@model IEnumerable<SBiSaccoWeb.Entities.Person>
+
+@{
+    ViewBag.Title = "Persons";
+    int Persons = Model.Count();
+}
+
+<h2 class="page-title">Persons [ @Persons ]  </h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreatePerson")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sex)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.identification_data)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.last_name)
+        </th>     
+        <th>
+            @Html.DisplayNameFor(model => model.father_name)
+        </th>     
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.first_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sex)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.identification_data)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.last_name)
+        </td>     
+        <td>
+            @Html.DisplayFor(modelItem => item.father_name)
+        </td>     
+        <td>
+            @Html.ActionLink("Edit", "EditPerson", new { id=item.id }) |
+            @Html.ActionLink("Details", "PersonDetails", new { id=item.id }) |
+            @Html.ActionLink("Delete", "DeletePerson", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+
+

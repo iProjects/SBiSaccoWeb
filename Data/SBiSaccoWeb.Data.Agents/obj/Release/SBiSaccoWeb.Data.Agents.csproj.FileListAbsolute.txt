@@ -1,0 +1,10 @@
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Release\SBiSaccoWeb.Data.Agents.csprojResolveAssemblyReference.cache
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Release\SBiSaccoWeb.Data.Agents.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Release\SBiSaccoWeb.Data.Agents.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Data.Agents.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Release\SBiSaccoWeb.Data.Agents.csprojResolveAssemblyReference.cache
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Release\SBiSaccoWeb.Data.Agents.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Data\SBiSaccoWeb.Data.Agents\obj\Release\SBiSaccoWeb.Data.Agents.pdb

@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+
+            <hgroup class="title">
+                <h1>Soft Books Sacco.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+
+            <hgroup class="title">
+                <h2 class="page-title">How Soft Books Sacco works</h2>
+            </hgroup>
+
+
+            <div>
+                <p>
+                    Soft Books Sacco is a system developed to meet the entire needs of a Sacco organisation in a growing environment.
+                    The system comprises of various operational and management modules that will greatly assist in the day-to-day management of a Sacco. The modules are integrated into an overall system and they function inter-dependently to provide a collective Sacco resource planning and management tool.<br>
+                    The system is also fully integrated with Acrobat Reader to produce all its reports in PDF format thus ensuring easy portability of reports. E.g. the reports can be saved on a disk and printed elsewhere with no difficulty at all.
+                    All transactional reports and financial statements can easily be produced without any additional manual work and can even be printed immediately after a transaction.<br>
+                    The system offers a flexible chart of accounts where users can define their own general ledger codes and accounts.<br>
+                    A system designed to manage needs of saving and credit cooperative organizations (sacco), matatu saccos,welfare groups, chamas and other micro-finance organizations; promoting accountability, transparancy, enhancing efficiency and cost cuttting.
+                    <br>
+                </p>
+            </div>
+
+
+            <div>
+
+                <img src="~/Images/images.jpg" alt="" />
+
+                <ol class="round">
+                    <li class="one">
+                        <h5>Join SBiSacco!</h5>
+                        Enter your details on the register screen by clicking @Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })
+                    </li>
+
+                    <li class="two">
+                        <h5>Complete Your Profile</h5>
+                        After clicking register you will automatically be redirected to the home page, click on @Html.ActionLink("My Profile", "EditProfile", "Account") and complete your profile by clicking edit
+                    </li>
+                </ol>
+
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+
+

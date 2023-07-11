@@ -1,0 +1,592 @@
+﻿@model SBiSaccoWeb.Entities.Package
+
+@{
+    ViewBag.Title = "Create Loan Product";
+}
+
+<h2 class="page-title">Create Loan Product</h2>
+
+@using (Html.BeginForm("UploadEmployerLogo", "DataEntry", FormMethod.Post, new { enctype = "multipart/form-data", id = "form-upload-logo" })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Package</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.deleted)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.deleted)
+            @Html.ValidationMessageFor(model => model.deleted)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.code)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.code)
+            @Html.ValidationMessageFor(model => model.code)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.name)
+            @Html.ValidationMessageFor(model => model.name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.client_type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.client_type)
+            @Html.ValidationMessageFor(model => model.client_type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.amount)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.amount)
+            @Html.ValidationMessageFor(model => model.amount)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.amount_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.amount_min)
+            @Html.ValidationMessageFor(model => model.amount_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.amount_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.amount_max)
+            @Html.ValidationMessageFor(model => model.amount_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.interest_rate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.interest_rate)
+            @Html.ValidationMessageFor(model => model.interest_rate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.interest_rate_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.interest_rate_min)
+            @Html.ValidationMessageFor(model => model.interest_rate_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.interest_rate_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.interest_rate_max)
+            @Html.ValidationMessageFor(model => model.interest_rate_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.installment_type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.installment_type)
+            @Html.ValidationMessageFor(model => model.installment_type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.grace_period)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.grace_period)
+            @Html.ValidationMessageFor(model => model.grace_period)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.grace_period_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.grace_period_min)
+            @Html.ValidationMessageFor(model => model.grace_period_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.grace_period_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.grace_period_max)
+            @Html.ValidationMessageFor(model => model.grace_period_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.number_of_installments)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.number_of_installments)
+            @Html.ValidationMessageFor(model => model.number_of_installments)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.number_of_installments_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.number_of_installments_min)
+            @Html.ValidationMessageFor(model => model.number_of_installments_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.number_of_installments_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.number_of_installments_max)
+            @Html.ValidationMessageFor(model => model.number_of_installments_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.anticipated_total_repayment_penalties)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.anticipated_total_repayment_penalties)
+            @Html.ValidationMessageFor(model => model.anticipated_total_repayment_penalties)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.anticipated_total_repayment_penalties_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.anticipated_total_repayment_penalties_min)
+            @Html.ValidationMessageFor(model => model.anticipated_total_repayment_penalties_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.anticipated_total_repayment_penalties_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.anticipated_total_repayment_penalties_max)
+            @Html.ValidationMessageFor(model => model.anticipated_total_repayment_penalties_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.loan_type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.loan_type)
+            @Html.ValidationMessageFor(model => model.loan_type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.keep_expected_installment)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.keep_expected_installment)
+            @Html.ValidationMessageFor(model => model.keep_expected_installment)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.charge_interest_within_grace_period)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.charge_interest_within_grace_period)
+            @Html.ValidationMessageFor(model => model.charge_interest_within_grace_period)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.cycle_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.cycle_id)
+            @Html.ValidationMessageFor(model => model.cycle_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_overdue_interest)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_overdue_interest)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_overdue_interest)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_initial_amount)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_initial_amount)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_initial_amount)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_olb)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_olb)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_olb)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_overdue_principal)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_overdue_principal)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_overdue_principal)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_overdue_interest_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_overdue_interest_min)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_overdue_interest_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_initial_amount_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_initial_amount_min)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_initial_amount_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_olb_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_olb_min)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_olb_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_overdue_principal_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_overdue_principal_min)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_overdue_principal_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_overdue_interest_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_overdue_interest_max)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_overdue_interest_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_initial_amount_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_initial_amount_max)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_initial_amount_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_olb_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_olb_max)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_olb_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.non_repayment_penalties_based_on_overdue_principal_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.non_repayment_penalties_based_on_overdue_principal_max)
+            @Html.ValidationMessageFor(model => model.non_repayment_penalties_based_on_overdue_principal_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.fundingLine_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.fundingLine_id)
+            @Html.ValidationMessageFor(model => model.fundingLine_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.currency_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.currency_id)
+            @Html.ValidationMessageFor(model => model.currency_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.rounding_type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.rounding_type)
+            @Html.ValidationMessageFor(model => model.rounding_type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.grace_period_of_latefees)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.grace_period_of_latefees)
+            @Html.ValidationMessageFor(model => model.grace_period_of_latefees)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.anticipated_partial_repayment_penalties)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.anticipated_partial_repayment_penalties)
+            @Html.ValidationMessageFor(model => model.anticipated_partial_repayment_penalties)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.anticipated_partial_repayment_penalties_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.anticipated_partial_repayment_penalties_min)
+            @Html.ValidationMessageFor(model => model.anticipated_partial_repayment_penalties_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.anticipated_partial_repayment_penalties_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.anticipated_partial_repayment_penalties_max)
+            @Html.ValidationMessageFor(model => model.anticipated_partial_repayment_penalties_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.anticipated_partial_repayment_base)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.anticipated_partial_repayment_base)
+            @Html.ValidationMessageFor(model => model.anticipated_partial_repayment_base)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.anticipated_total_repayment_base)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.anticipated_total_repayment_base)
+            @Html.ValidationMessageFor(model => model.anticipated_total_repayment_base)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.number_of_drawings_loc)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.number_of_drawings_loc)
+            @Html.ValidationMessageFor(model => model.number_of_drawings_loc)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.amount_under_loc)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.amount_under_loc)
+            @Html.ValidationMessageFor(model => model.amount_under_loc)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.amount_under_loc_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.amount_under_loc_min)
+            @Html.ValidationMessageFor(model => model.amount_under_loc_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.amount_under_loc_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.amount_under_loc_max)
+            @Html.ValidationMessageFor(model => model.amount_under_loc_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.maturity_loc)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.maturity_loc)
+            @Html.ValidationMessageFor(model => model.maturity_loc)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.maturity_loc_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.maturity_loc_min)
+            @Html.ValidationMessageFor(model => model.maturity_loc_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.maturity_loc_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.maturity_loc_max)
+            @Html.ValidationMessageFor(model => model.maturity_loc_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.activated_loc)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.activated_loc)
+            @Html.ValidationMessageFor(model => model.activated_loc)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.allow_flexible_schedule)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.allow_flexible_schedule)
+            @Html.ValidationMessageFor(model => model.allow_flexible_schedule)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.use_guarantor_collateral)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.use_guarantor_collateral)
+            @Html.ValidationMessageFor(model => model.use_guarantor_collateral)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.set_separate_guarantor_collateral)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.set_separate_guarantor_collateral)
+            @Html.ValidationMessageFor(model => model.set_separate_guarantor_collateral)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.percentage_total_guarantor_collateral)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.percentage_total_guarantor_collateral)
+            @Html.ValidationMessageFor(model => model.percentage_total_guarantor_collateral)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.percentage_separate_guarantor)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.percentage_separate_guarantor)
+            @Html.ValidationMessageFor(model => model.percentage_separate_guarantor)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.percentage_separate_collateral)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.percentage_separate_collateral)
+            @Html.ValidationMessageFor(model => model.percentage_separate_collateral)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.use_compulsory_savings)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.use_compulsory_savings)
+            @Html.ValidationMessageFor(model => model.use_compulsory_savings)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.compulsory_amount)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.compulsory_amount)
+            @Html.ValidationMessageFor(model => model.compulsory_amount)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.compulsory_amount_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.compulsory_amount_min)
+            @Html.ValidationMessageFor(model => model.compulsory_amount_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.compulsory_amount_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.compulsory_amount_max)
+            @Html.ValidationMessageFor(model => model.compulsory_amount_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.insurance_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.insurance_min)
+            @Html.ValidationMessageFor(model => model.insurance_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.insurance_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.insurance_max)
+            @Html.ValidationMessageFor(model => model.insurance_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.use_entry_fees_cycles)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.use_entry_fees_cycles)
+            @Html.ValidationMessageFor(model => model.use_entry_fees_cycles)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.is_balloon)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.is_balloon)
+            @Html.ValidationMessageFor(model => model.is_balloon)
+        </div>
+
+        <p>
+            <input type="submit" value="Create"  id="btnSubmit" />
+        </p>
+    </fieldset>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+
+

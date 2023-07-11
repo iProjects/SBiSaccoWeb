@@ -1,0 +1,15 @@
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Debug\SBiSaccoWeb.Entities.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Debug\SBiSaccoWeb.Entities.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Debug\SBiSaccoWeb.Entities.csprojResolveAssemblyReference.cache
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Debug\SBiSaccoWeb.Entities.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Debug\SBiSaccoWeb.Entities.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Debug\SBiSaccoWeb.Entities.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Debug\SBiSaccoWeb.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Debug\SBiSaccoWeb.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Shared\SBiSaccoWeb.Entities\obj\Debug\SBiSaccoWeb.Entities.csprojResolveAssemblyReference.cache

@@ -1,0 +1,97 @@
+﻿@model SBiSaccoWeb.Entities.Currency
+
+@{
+    ViewBag.Title = "Edit Currency";
+}
+
+<h2 class="page-title">Edit Currency</h2>
+
+@using (Html.BeginForm("UploadEmployerLogo", "DataEntry", FormMethod.Post, new { enctype = "multipart/form-data", id = "form-upload-logo" })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Currency</legend>
+
+        @Html.HiddenFor(model => model.id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.name)
+            @Html.ValidationMessageFor(model => model.name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.is_pivot)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.is_pivot)
+            @Html.ValidationMessageFor(model => model.is_pivot)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.code)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.code)
+            @Html.ValidationMessageFor(model => model.code)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.is_swapped)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.is_swapped)
+            @Html.ValidationMessageFor(model => model.is_swapped)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.use_cents)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.use_cents)
+            @Html.ValidationMessageFor(model => model.use_cents)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+

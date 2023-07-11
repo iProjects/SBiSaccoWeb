@@ -1,0 +1,232 @@
+﻿@model SBiSaccoWeb.Entities.SavingProduct
+
+@{
+    ViewBag.Title = "Savings Product Details";
+}
+
+<h2 class="page-title">Savings Product Details</h2>
+
+@using (Html.BeginForm("UploadEmployerLogo", "DataEntry", FormMethod.Post, new { enctype = "multipart/form-data", id = "form-upload-logo" })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>SavingProduct</legend>
+
+        @Html.HiddenFor(model => model.id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.deleted)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.deleted)
+            @Html.ValidationMessageFor(model => model.deleted)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.name)
+            @Html.ValidationMessageFor(model => model.name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.client_type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.client_type)
+            @Html.ValidationMessageFor(model => model.client_type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.initial_amount_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.initial_amount_min)
+            @Html.ValidationMessageFor(model => model.initial_amount_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.initial_amount_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.initial_amount_max)
+            @Html.ValidationMessageFor(model => model.initial_amount_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.balance_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.balance_min)
+            @Html.ValidationMessageFor(model => model.balance_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.balance_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.balance_max)
+            @Html.ValidationMessageFor(model => model.balance_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.withdraw_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.withdraw_min)
+            @Html.ValidationMessageFor(model => model.withdraw_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.withdraw_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.withdraw_max)
+            @Html.ValidationMessageFor(model => model.withdraw_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.deposit_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.deposit_min)
+            @Html.ValidationMessageFor(model => model.deposit_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.deposit_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.deposit_max)
+            @Html.ValidationMessageFor(model => model.deposit_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.interest_rate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.interest_rate)
+            @Html.ValidationMessageFor(model => model.interest_rate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.interest_rate_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.interest_rate_min)
+            @Html.ValidationMessageFor(model => model.interest_rate_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.interest_rate_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.interest_rate_max)
+            @Html.ValidationMessageFor(model => model.interest_rate_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.currency_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.currency_id)
+            @Html.ValidationMessageFor(model => model.currency_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.entry_fees_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.entry_fees_min)
+            @Html.ValidationMessageFor(model => model.entry_fees_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.entry_fees_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.entry_fees_max)
+            @Html.ValidationMessageFor(model => model.entry_fees_max)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.entry_fees)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.entry_fees)
+            @Html.ValidationMessageFor(model => model.entry_fees)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.product_type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.product_type)
+            @Html.ValidationMessageFor(model => model.product_type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.code)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.code)
+            @Html.ValidationMessageFor(model => model.code)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.transfer_min)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.transfer_min)
+            @Html.ValidationMessageFor(model => model.transfer_min)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.transfer_max)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.transfer_max)
+            @Html.ValidationMessageFor(model => model.transfer_max)
+        </div>
+
+        
+    </fieldset>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+
+

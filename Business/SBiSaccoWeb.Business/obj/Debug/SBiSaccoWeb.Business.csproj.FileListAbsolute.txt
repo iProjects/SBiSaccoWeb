@@ -1,0 +1,15 @@
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Business.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Business.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Business\obj\Debug\SBiSaccoWeb.Business.csprojResolveAssemblyReference.cache
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Business\obj\Debug\SBiSaccoWeb.Business.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Business\obj\Debug\SBiSaccoWeb.Business.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Business.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Business.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Business\obj\Debug\SBiSaccoWeb.Business.csprojResolveAssemblyReference.cache
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Business\obj\Debug\SBiSaccoWeb.Business.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Business\obj\Debug\SBiSaccoWeb.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Business\SBiSaccoWeb.Business\obj\Debug\SBiSaccoWeb.Business.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Business\SBiSaccoWeb.Business\obj\Debug\SBiSaccoWeb.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Business\SBiSaccoWeb.Business\obj\Debug\SBiSaccoWeb.Business.pdb

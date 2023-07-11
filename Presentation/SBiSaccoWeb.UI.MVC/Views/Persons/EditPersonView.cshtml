@@ -1,0 +1,402 @@
+﻿@model SBiSaccoWeb.Entities.Person
+
+@{
+    ViewBag.Title = "Edit Person";
+}
+
+<h2 class="page-title">Edit Person</h2>
+
+@using (Html.BeginForm("UploadEmployerLogo", "DataEntry", FormMethod.Post, new { enctype = "multipart/form-data", id = "form-upload-logo" })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Person</legend>
+
+        @Html.HiddenFor(model => model.id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.first_name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.first_name)
+            @Html.ValidationMessageFor(model => model.first_name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.sex)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.sex)
+            @Html.ValidationMessageFor(model => model.sex)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.identification_data)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.identification_data)
+            @Html.ValidationMessageFor(model => model.identification_data)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.last_name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.last_name)
+            @Html.ValidationMessageFor(model => model.last_name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.birth_date)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.birth_date)
+            @Html.ValidationMessageFor(model => model.birth_date)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.household_head)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.household_head)
+            @Html.ValidationMessageFor(model => model.household_head)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nb_of_dependents)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nb_of_dependents)
+            @Html.ValidationMessageFor(model => model.nb_of_dependents)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nb_of_children)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nb_of_children)
+            @Html.ValidationMessageFor(model => model.nb_of_children)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.children_basic_education)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.children_basic_education)
+            @Html.ValidationMessageFor(model => model.children_basic_education)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.livestock_number)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.livestock_number)
+            @Html.ValidationMessageFor(model => model.livestock_number)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.livestock_type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.livestock_type)
+            @Html.ValidationMessageFor(model => model.livestock_type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.landplot_size)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.landplot_size)
+            @Html.ValidationMessageFor(model => model.landplot_size)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.home_size)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.home_size)
+            @Html.ValidationMessageFor(model => model.home_size)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.home_time_living_in)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.home_time_living_in)
+            @Html.ValidationMessageFor(model => model.home_time_living_in)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.capital_other_equipments)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.capital_other_equipments)
+            @Html.ValidationMessageFor(model => model.capital_other_equipments)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.activity_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.activity_id)
+            @Html.ValidationMessageFor(model => model.activity_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.experience)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.experience)
+            @Html.ValidationMessageFor(model => model.experience)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nb_of_people)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nb_of_people)
+            @Html.ValidationMessageFor(model => model.nb_of_people)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.monthly_income)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.monthly_income)
+            @Html.ValidationMessageFor(model => model.monthly_income)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.monthly_expenditure)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.monthly_expenditure)
+            @Html.ValidationMessageFor(model => model.monthly_expenditure)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.comments)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.comments)
+            @Html.ValidationMessageFor(model => model.comments)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.image_path)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.image_path)
+            @Html.ValidationMessageFor(model => model.image_path)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.father_name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.father_name)
+            @Html.ValidationMessageFor(model => model.father_name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.birth_place)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.birth_place)
+            @Html.ValidationMessageFor(model => model.birth_place)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nationality)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nationality)
+            @Html.ValidationMessageFor(model => model.nationality)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.study_level)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.study_level)
+            @Html.ValidationMessageFor(model => model.study_level)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SS)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SS)
+            @Html.ValidationMessageFor(model => model.SS)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CAF)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CAF)
+            @Html.ValidationMessageFor(model => model.CAF)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.housing_situation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.housing_situation)
+            @Html.ValidationMessageFor(model => model.housing_situation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.bank_situation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.bank_situation)
+            @Html.ValidationMessageFor(model => model.bank_situation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.handicapped)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.handicapped)
+            @Html.ValidationMessageFor(model => model.handicapped)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.professional_experience)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.professional_experience)
+            @Html.ValidationMessageFor(model => model.professional_experience)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.professional_situation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.professional_situation)
+            @Html.ValidationMessageFor(model => model.professional_situation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.first_contact)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.first_contact)
+            @Html.ValidationMessageFor(model => model.first_contact)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.family_situation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.family_situation)
+            @Html.ValidationMessageFor(model => model.family_situation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.mother_name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.mother_name)
+            @Html.ValidationMessageFor(model => model.mother_name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.povertylevel_childreneducation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.povertylevel_childreneducation)
+            @Html.ValidationMessageFor(model => model.povertylevel_childreneducation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.povertylevel_economiceducation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.povertylevel_economiceducation)
+            @Html.ValidationMessageFor(model => model.povertylevel_economiceducation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.povertylevel_socialparticipation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.povertylevel_socialparticipation)
+            @Html.ValidationMessageFor(model => model.povertylevel_socialparticipation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.povertylevel_healthsituation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.povertylevel_healthsituation)
+            @Html.ValidationMessageFor(model => model.povertylevel_healthsituation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.unemployment_months)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.unemployment_months)
+            @Html.ValidationMessageFor(model => model.unemployment_months)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.first_appointment)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.first_appointment)
+            @Html.ValidationMessageFor(model => model.first_appointment)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.loan_officer_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.loan_officer_id)
+            @Html.ValidationMessageFor(model => model.loan_officer_id)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+
+

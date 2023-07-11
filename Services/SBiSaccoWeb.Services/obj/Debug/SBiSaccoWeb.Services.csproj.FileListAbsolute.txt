@@ -1,0 +1,15 @@
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Services.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Services.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services\obj\Debug\SBiSaccoWeb.Services.csprojResolveAssemblyReference.cache
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services\obj\Debug\SBiSaccoWeb.Services.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services\obj\Debug\SBiSaccoWeb.Services.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Services.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Services.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services\obj\Debug\SBiSaccoWeb.Services.csprojResolveAssemblyReference.cache
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services\obj\Debug\SBiSaccoWeb.Services.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services\obj\Debug\SBiSaccoWeb.Services.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Services.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Services.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Services\SBiSaccoWeb.Services\obj\Debug\SBiSaccoWeb.Services.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Services\SBiSaccoWeb.Services\obj\Debug\SBiSaccoWeb.Services.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Services\SBiSaccoWeb.Services\obj\Debug\SBiSaccoWeb.Services.pdb

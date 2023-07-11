@@ -1,0 +1,10 @@
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Framework.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Framework.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Framework\obj\Release\SBiSaccoWeb.Framework.csprojResolveAssemblyReference.cache
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Framework\obj\Release\SBiSaccoWeb.Framework.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Framework\obj\Release\SBiSaccoWeb.Framework.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Framework.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Framework.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Framework\obj\Release\SBiSaccoWeb.Framework.csprojResolveAssemblyReference.cache
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Framework\obj\Release\SBiSaccoWeb.Framework.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Shared\SBiSaccoWeb.Framework\obj\Release\SBiSaccoWeb.Framework.pdb

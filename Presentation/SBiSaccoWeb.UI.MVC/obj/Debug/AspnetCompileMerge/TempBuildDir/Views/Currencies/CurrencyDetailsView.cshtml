@@ -1,0 +1,96 @@
+﻿@model SBiSaccoWeb.Entities.Currency
+
+@{
+    ViewBag.Title = "Currency Details";
+}
+
+<h2 class="page-title">Currency Details</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Currency</legend>
+
+        @Html.HiddenFor(model => model.id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.name)
+            @Html.ValidationMessageFor(model => model.name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.is_pivot)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.is_pivot)
+            @Html.ValidationMessageFor(model => model.is_pivot)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.code)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.code)
+            @Html.ValidationMessageFor(model => model.code)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.is_swapped)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.is_swapped)
+            @Html.ValidationMessageFor(model => model.is_swapped)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.use_cents)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.use_cents)
+            @Html.ValidationMessageFor(model => model.use_cents)
+        </div>
+
+       
+    </fieldset>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+
+

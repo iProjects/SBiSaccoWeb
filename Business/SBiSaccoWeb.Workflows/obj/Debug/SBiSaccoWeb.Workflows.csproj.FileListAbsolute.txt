@@ -1,0 +1,15 @@
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Workflows.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Workflows.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Workflows\obj\Debug\SBiSaccoWeb.Workflows.csprojResolveAssemblyReference.cache
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Workflows\obj\Debug\SBiSaccoWeb.Workflows.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Workflows\obj\Debug\SBiSaccoWeb.Workflows.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Workflows.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Workflows.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Workflows\obj\Debug\SBiSaccoWeb.Workflows.csprojResolveAssemblyReference.cache
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Workflows\obj\Debug\SBiSaccoWeb.Workflows.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Business\SBiSaccoWeb.Workflows\obj\Debug\SBiSaccoWeb.Workflows.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Workflows.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Workflows.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Business\SBiSaccoWeb.Workflows\obj\Debug\SBiSaccoWeb.Workflows.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Business\SBiSaccoWeb.Workflows\obj\Debug\SBiSaccoWeb.Workflows.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Business\SBiSaccoWeb.Workflows\obj\Debug\SBiSaccoWeb.Workflows.pdb

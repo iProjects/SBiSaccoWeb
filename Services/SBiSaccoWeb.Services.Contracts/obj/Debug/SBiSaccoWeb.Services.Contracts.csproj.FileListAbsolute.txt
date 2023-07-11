@@ -1,0 +1,15 @@
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Services.Contracts.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Services.Contracts.pdb
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services.Contracts\obj\Debug\SBiSaccoWeb.Services.Contracts.csprojResolveAssemblyReference.cache
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services.Contracts\obj\Debug\SBiSaccoWeb.Services.Contracts.dll
+D:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services.Contracts\obj\Debug\SBiSaccoWeb.Services.Contracts.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Services.Contracts.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\bin\SBiSaccoWeb.Services.Contracts.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services.Contracts\obj\Debug\SBiSaccoWeb.Services.Contracts.dll
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services.Contracts\obj\Debug\SBiSaccoWeb.Services.Contracts.pdb
+C:\Dev\SBiSaccoWeb\SBiSaccoWeb\Services\SBiSaccoWeb.Services.Contracts\obj\Debug\SBiSaccoWeb.Services.Contracts.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Services.Contracts.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\bin\SBiSaccoWeb.Services.Contracts.pdb
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Services\SBiSaccoWeb.Services.Contracts\obj\Debug\SBiSaccoWeb.Services.Contracts.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Services\SBiSaccoWeb.Services.Contracts\obj\Debug\SBiSaccoWeb.Services.Contracts.dll
+D:\wakxpx\csharp\visualstudio\2013\SBiSaccoWeb\Services\SBiSaccoWeb.Services.Contracts\obj\Debug\SBiSaccoWeb.Services.Contracts.pdb

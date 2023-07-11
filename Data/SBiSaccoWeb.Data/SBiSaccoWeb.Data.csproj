@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{283C1F29-2C60-4B30-956B-2FBB40CFB527}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SBiSaccoWeb.Data</RootNamespace>
+    <AssemblyName>SBiSaccoWeb.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\..\library\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountingClosureDAC.cs" />
+    <Compile Include="AccountingRuleDAC.cs" />
+    <Compile Include="AccountsCategoryDAC.cs" />
+    <Compile Include="ActionItemDAC.cs" />
+    <Compile Include="AdvancedFieldDAC.cs" />
+    <Compile Include="AdvancedFieldsCollectionDAC.cs" />
+    <Compile Include="AdvancedFieldsEntityDAC.cs" />
+    <Compile Include="AdvancedFieldsLinkEntityDAC.cs" />
+    <Compile Include="AdvancedFieldsTypeDAC.cs" />
+    <Compile Include="AdvancedFieldsValueDAC.cs" />
+    <Compile Include="AlertSettingDAC.cs" />
+    <Compile Include="AllowedRoleActionDAC.cs" />
+    <Compile Include="AllowedRoleMenusDAC.cs" />
+    <Compile Include="AmountCycleDAC.cs" />
+    <Compile Include="BranchDAC.cs" />
+    <Compile Include="ChartOfAccountDAC.cs" />
+    <Compile Include="CityDAC.cs" />
+    <Compile Include="ClientBranchHistoryDAC.cs" />
+    <Compile Include="ClientTypeDAC.cs" />
+    <Compile Include="CollateralProductDAC.cs" />
+    <Compile Include="CollateralPropertyCollectionDAC.cs" />
+    <Compile Include="CollateralPropertyDAC.cs" />
+    <Compile Include="CollateralPropertyTypeDAC.cs" />
+    <Compile Include="CollateralPropertyValueDAC.cs" />
+    <Compile Include="CollateralsLinkContractDAC.cs" />
+    <Compile Include="ConsolidatedDataDAC.cs" />
+    <Compile Include="ContractAccountingRuleDAC.cs" />
+    <Compile Include="ContractAssignHistoryDAC.cs" />
+    <Compile Include="ContractDAC.cs" />
+    <Compile Include="ContractEventDAC.cs" />
+    <Compile Include="CorporateDAC.cs" />
+    <Compile Include="CorporatePersonBelongingDAC.cs" />
+    <Compile Include="CreditDAC.cs" />
+    <Compile Include="CreditEntryFeeDAC.cs" />
+    <Compile Include="CreditInsuranceEventDAC.cs" />
+    <Compile Include="CurrencyDAC.cs" />
+    <Compile Include="CycleDAC.cs" />
+    <Compile Include="CycleObjectDAC.cs" />
+    <Compile Include="CycleParameterDAC.cs" />
+    <Compile Include="DataAccessComponent.cs" />
+    <Compile Include="DepartmentDAC.cs" />
+    <Compile Include="DistrictDAC.cs" />
+    <Compile Include="EconomicActivityDAC.cs" />
+    <Compile Include="EconomicActivityLoanHistoryDAC.cs" />
+    <Compile Include="EmployeeDAC.cs" />
+    <Compile Include="EmployerDAC.cs" />
+    <Compile Include="EntryFeeDAC.cs" />
+    <Compile Include="EventAttributeDAC.cs" />
+    <Compile Include="EventTypeDAC.cs" />
+    <Compile Include="ExchangeRateDAC.cs" />
+    <Compile Include="ExoticDAC.cs" />
+    <Compile Include="ExoticInstallmentDAC.cs" />
+    <Compile Include="FiscalYearDAC.cs" />
+    <Compile Include="FundingLineAccountingRuleDAC.cs" />
+    <Compile Include="FundingLineDAC.cs" />
+    <Compile Include="FundingLineEventDAC.cs" />
+    <Compile Include="GeneralParameterDAC.cs" />
+    <Compile Include="GroupDAC.cs" />
+    <Compile Include="InstallmentDAC.cs" />
+    <Compile Include="InstallmentHistoryDAC.cs" />
+    <Compile Include="InstallmentTypeDAC.cs" />
+    <Compile Include="LinkBranchesPaymentMethodDAC.cs" />
+    <Compile Include="LinkGuarantorCreditDAC.cs" />
+    <Compile Include="LinkPackagesExoticDAC.cs" />
+    <Compile Include="LoanAccountingMovementDAC.cs" />
+    <Compile Include="LoanDisbursmentEventDAC.cs" />
+    <Compile Include="LoanEntryFeeEventDAC.cs" />
+    <Compile Include="LoanInterestAccruingEventDAC.cs" />
+    <Compile Include="LoanScaleDAC.cs" />
+    <Compile Include="LoanShareAmountDAC.cs" />
+    <Compile Include="LoansLinkSavingsBookDAC.cs" />
+    <Compile Include="ManualAccountingMovementDAC.cs" />
+    <Compile Include="MenuItemDAC.cs" />
+    <Compile Include="MonitoringDAC.cs" />
+    <Compile Include="OverdueEventDAC.cs" />
+    <Compile Include="PackageDAC.cs" />
+    <Compile Include="PackagesClientTypeDAC.cs" />
+    <Compile Include="Partials\EmployeeDAC.cs" />
+    <Compile Include="Partials\EmployerDAC.cs" />
+    <Compile Include="Partials\spAllowedRoleMenusDAC.cs" />
+    <Compile Include="Partials\spUserDAC.cs" />
+    <Compile Include="Partials\spUsersInRoleDAC.cs" />
+    <Compile Include="PaymentMethodDAC.cs" />
+    <Compile Include="PersonDAC.cs" />
+    <Compile Include="PersonGroupBelongingDAC.cs" />
+    <Compile Include="PersonsPhotoDAC.cs" />
+    <Compile Include="ProjectDAC.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProvinceDAC.cs" />
+    <Compile Include="ProvisionEventDAC.cs" />
+    <Compile Include="ProvisioningRuleDAC.cs" />
+    <Compile Include="PublicHolidayDAC.cs" />
+    <Compile Include="QuestionnaireDAC.cs" />
+    <Compile Include="RepaymentEventDAC.cs" />
+    <Compile Include="Rep_Active_Loans_DataDAC.cs" />
+    <Compile Include="Rep_Disbursements_DataDAC.cs" />
+    <Compile Include="Rep_OLB_and_LLP_DataDAC.cs" />
+    <Compile Include="Rep_Par_Analysis_DataDAC.cs" />
+    <Compile Include="Rep_Repayments_DataDAC.cs" />
+    <Compile Include="Rep_Rescheduled_Loans_DataDAC.cs" />
+    <Compile Include="ReschedulingOfALoanEventDAC.cs" />
+    <Compile Include="RoleDAC.cs" />
+    <Compile Include="SavingBookContractDAC.cs" />
+    <Compile Include="SavingBookProductDAC.cs" />
+    <Compile Include="SavingContractDAC.cs" />
+    <Compile Include="SavingDepositContractDAC.cs" />
+    <Compile Include="SavingEventDAC.cs" />
+    <Compile Include="SavingProductDAC.cs" />
+    <Compile Include="SavingProductsClientTypeDAC.cs" />
+    <Compile Include="SavingsAccountingMovementDAC.cs" />
+    <Compile Include="SettingDAC.cs" />
+    <Compile Include="SettingsGroupDAC.cs" />
+    <Compile Include="SmsMessageStoreDAC.cs" />
+    <Compile Include="spAllowedRoleMenusDAC.cs" />
+    <Compile Include="spAllowedRoleMenuswebDAC.cs" />
+    <Compile Include="spMenusDAC.cs" />
+    <Compile Include="spRoleDAC.cs" />
+    <Compile Include="spUserDAC.cs" />
+    <Compile Include="spUsersInRoleDAC.cs" />
+    <Compile Include="StandardBookingDAC.cs" />
+    <Compile Include="StatuseDAC.cs" />
+    <Compile Include="TechnicalParameterDAC.cs" />
+    <Compile Include="TechParamDAC.cs" />
+    <Compile Include="TellerDAC.cs" />
+    <Compile Include="TellerEventDAC.cs" />
+    <Compile Include="TermDepositProductDAC.cs" />
+    <Compile Include="TierDAC.cs" />
+    <Compile Include="TraceUserLogDAC.cs" />
+    <Compile Include="TrancheEventDAC.cs" />
+    <Compile Include="UserDAC.cs" />
+    <Compile Include="UserRoleDAC.cs" />
+    <Compile Include="UsersBranchDAC.cs" />
+    <Compile Include="UsersSubordinateDAC.cs" />
+    <Compile Include="VillageDAC.cs" />
+    <Compile Include="VillagesAttendanceDAC.cs" />
+    <Compile Include="VillagesPersonDAC.cs" />
+    <Compile Include="webpages_MembershipDAC.cs" />
+    <Compile Include="webpages_OAuthMembershipDAC.cs" />
+    <Compile Include="webpages_RoleDAC.cs" />
+    <Compile Include="webpages_UsersInRoleDAC.cs" />
+    <Compile Include="WriteOffEventDAC.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\SBiSaccoWeb.Entities\SBiSaccoWeb.Entities.csproj">
+      <Project>{15243E12-8661-4CFC-B8EE-44D2EABBD170}</Project>
+      <Name>SBiSaccoWeb.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\SBiSaccoWeb.Framework\SBiSaccoWeb.Framework.csproj">
+      <Project>{134326FF-A7B0-4CA6-9A13-C8E04E1ABD36}</Project>
+      <Name>SBiSaccoWeb.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
